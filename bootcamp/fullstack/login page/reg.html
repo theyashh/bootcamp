@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 5px;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"],
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 10px 4px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        button {
+            margin-top: 50px;
+            margin-left: 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <form action="login.html">
+
+            <label> Firstname </label>
+            <input type="text" name="firstname" size="15" /> <br> <br>
+            <label> Middlename: </label>
+            <input type="text" name="middlename" size="15" /> <br> <br>
+            <label> Lastname: </label>
+            <input type="text" name="lastname" size="15" /> <br> <br>
+
+            <br>
+            <br>
+            <label> Gender : </label><br>
+            <input type="radio" name="male" /> Male <br>
+            <input type="radio" name="female" /> Female <br>
+            <input type="radio" name="other" /> Other
+            <br>
+            <br>
+
+            <label>
+                Phone :
+            </label>
+            <input type="text" name="country code" value="+91" />
+            <br> <br>
+            Address
+            <br>
+            <textarea cols="80" rows="5" value="address">
+            </textarea>
+            <br> <br>
+            Email:
+            <input type="email" id="email" name="email" /> <br>
+            <br> <br>
+            Password:
+            <input type="Password" id="pass" name="pass"> <br>
+            <br> <br>
+            Re-type password:
+            <input type="Password" id="repass" name="repass"> <br> <br>
+            <form action="login.html">
+                <input type="submit">
+
+            </form>
+
+        </form>
+    </form>
+
+
+</body>
+
+</html>
